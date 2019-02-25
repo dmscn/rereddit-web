@@ -2,6 +2,12 @@
   "name": "forum-app",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Leonardo Damasceno",
+    "email": "ldamasceno.dev@gmail.com",
+    "url": "https://dmscn.github.io/portfolio"
+  },
+  "homepage": "https://dmscn.github.io/forum-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
