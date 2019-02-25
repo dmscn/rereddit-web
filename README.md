@@ -1,4 +1,4 @@
-# Forum APp
+# Forum App
 
 ## Requirements
 
