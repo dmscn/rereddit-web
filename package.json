@@ -2,6 +2,12 @@
   "name": "forum-app",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Leonardo Damasceno",
+    "email": "ldamasceno.dev@gmail.com",
+    "url": "https://dmscn.github.io/portfolio"
+  },
+  "homepage": "https://dmscn.github.io/forum-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -9,6 +15,19 @@
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "jest --bail"
+    }
+  },
+  "lint-staged": {
+    "*.{js,tsx}": [
+      "prettier --write",
+      "eslint --fix",
+      "git add"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,6 +49,9 @@
     "@types/react": "^16.8.4",
     "@types/react-dom": "^16.8.2",
     "gh-pages": "^2.0.1",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.4",
+    "prettier": "^1.16.4",
     "typescript": "^3.3.3333"
   }
 }

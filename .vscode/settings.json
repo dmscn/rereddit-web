@@ -1,0 +1,13 @@
+{
+  "editor.formatOnPaste": true,
+
+  "prettier.eslintIntegration": true,
+  "prettier.endOfLine": "lf",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.arrowParens": "always",
+
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+}
