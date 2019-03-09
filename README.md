@@ -1,4 +1,4 @@
-# Forum App
+# ReRedit Web
 
 ![ReRedit](src/logo.png)
 
