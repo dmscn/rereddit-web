@@ -1,4 +1,4 @@
-# ReRedit Web
+# ReReddit Web
 
 ![ReRedit](src/logo.png)
 
