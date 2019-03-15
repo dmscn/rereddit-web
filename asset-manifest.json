@@ -1,0 +1,14 @@
+{
+  "main.css": "/forum-app/static/css/main.e2743604.chunk.css",
+  "main.js": "/forum-app/static/js/main.d645857a.chunk.js",
+  "main.js.map": "/forum-app/static/js/main.d645857a.chunk.js.map",
+  "runtime~main.js": "/forum-app/static/js/runtime~main.61c9c189.js",
+  "runtime~main.js.map": "/forum-app/static/js/runtime~main.61c9c189.js.map",
+  "static/js/2.5bf9b2cd.chunk.js": "/forum-app/static/js/2.5bf9b2cd.chunk.js",
+  "static/js/2.5bf9b2cd.chunk.js.map": "/forum-app/static/js/2.5bf9b2cd.chunk.js.map",
+  "index.html": "/forum-app/index.html",
+  "precache-manifest.9a938d538278ce6e0d0062a10776f15c.js": "/forum-app/precache-manifest.9a938d538278ce6e0d0062a10776f15c.js",
+  "service-worker.js": "/forum-app/service-worker.js",
+  "static/css/main.e2743604.chunk.css.map": "/forum-app/static/css/main.e2743604.chunk.css.map",
+  "static/media/logo.svg": "/forum-app/static/media/logo.d4336377.svg"
+}
