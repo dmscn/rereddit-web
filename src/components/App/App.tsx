@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import logo from './logo.svg';
 import './App.css';
-import HomeScreen from './components/HomeScreen';
-import NotFoundScreen from './components/NotFoundScreen';
+import HomeScreen from '../HomeScreen';
+import NotFoundScreen from '../NotFoundScreen';
 
 export default class App extends Component {
   render() {
