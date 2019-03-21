@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path="/" component={HomeScreen} />
+          <Route path="/" exact component={HomeScreen} />
           <Route component={NotFoundScreen} />
         </Switch>
       </BrowserRouter>
