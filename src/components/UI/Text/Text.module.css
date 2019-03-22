@@ -1,0 +1,17 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+.dialog {
+  font-size: 3em;
+}
+
+.header {
+  font-size: 2em;
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+}

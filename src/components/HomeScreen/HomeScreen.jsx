@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class HomeScreen extends Component {
-  render() {
-    return (
-      <div>
-        HomeScreen
-      </div>
-    )
-  }
+export default function HomeScreen() {
+  return (
+    <div>
+      HomeScreen
+    </div>
+  )
 }
+

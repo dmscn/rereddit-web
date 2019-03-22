@@ -2,13 +2,13 @@ import React from 'react';
 
 import logo from '../../assets/svg/logo-mini.svg';
 import styles from './NotFoundScreen.module.css';
-import HeaderText from '../UI/HeaderText';
+import Text from '../UI/Text';
 
 export default function NotFoundScreen() {
   return (
     <main className={styles.Container}>
       <img src={logo} />
-      <HeaderText>Wrong path, pal...</HeaderText>
+      <Text variant={'dialog'}>Oops! Wrong path, pal...</Text>
     </main>
   );
 }
